@@ -1,0 +1,40 @@
+
+README-notes
+2019-2-3
+
+
+Origin
+========
+
+remote.origin.url=git://opencircuitdesign.com/netgen-1.5
+
+
+Build
+=======
+
+http://opencircuitdesign.com/netgen/install.html
+
+ Compiling and Installing Netgen version 1.5
+
+    Netgen 1.5 is distribution code. Compiled without the Tcl interface (not recommended), 
+    it should compile and run like the original version (which had no version number). 
+    However, the "make" process has been substantially cleaned up, and converted to GNU autoconf. 
+    The Tcl version of Netgen compiles and runs by default. The Tcl version takes advantage 
+    of both the ability to script the simulation procedure, including some scripts to ease 
+    the complicated process of LVS by reducing most cases to a one-line command. The compilation 
+    procedure should be immediately recognizable to anyone familiar with GNU autoconf:
+
+        ./configure
+        make
+        make install 
+
+    The main prerequisite for netgen is Tcl/Tk. Currently (2017), this means Tcl/Tk version 8.6. 
+    For OS versions with packaging systems (e.g., "yum" or "apt-get", etc.), be sure to install 
+    the development version of Tcl/Tk, which usually has package names of "tcl-devel" and "tk-devel", 
+    respectively, although the names may vary according to the packaging system. 
+
+ email: 	
+
+ Last updated: April 25, 2017 at 10:55am 
+
+
